@@ -13,17 +13,17 @@ class Remohop < Formula
   # notarized executable. Homebrew must not modify it (that would void the signature).
   on_macos do
     url "https://github.com/readori/RemoHop/releases/download/v1.0.0/remohop_darwin_universal.tar.gz"
-    sha256 "f9c3d301307df8d40078b462430fee85be907becb4aa0dc90678b81eae62d456"
+    sha256 "36025fd2a6b9a29a9c62e9a88d8ecc2db47bed23474c9ea744588033c67f1178"
   end
 
   on_linux do
     on_intel do
       url "https://github.com/readori/RemoHop/releases/download/v1.0.0/remohop_linux_amd64.tar.gz"
-      sha256 "409f68c6da45226f7bbcf818a755a99fd301f0c5ba1a8a77b066b88eb500ccf7"
+      sha256 "29408be36fa570ba4629acbbf84ad6ca8958e715ed9239d1086148038259bcbe"
     end
     on_arm do
       url "https://github.com/readori/RemoHop/releases/download/v1.0.0/remohop_linux_arm64.tar.gz"
-      sha256 "4d7e992121f235c14d8e3aa03824c33005834adf37f363ed7b7692f994c1861a"
+      sha256 "e8e2a17757353a4b58567d62df15c120ba3b5a4e4587be43948bcaa177948cdb"
     end
   end
 
