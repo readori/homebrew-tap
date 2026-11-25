@@ -4,10 +4,10 @@
 #   brew install --cask readori/tap/remohop-quick
 # The token is not "remohop" so that it cannot be confused with the formula (the CLI).
 cask "remohop-quick" do
-  version "1.0.0"
-  sha256 "878446719f8b117678d3770900fda482be83231eada665f14a8cf11af54d8ccc"
+  version "1.0.1"
+  sha256 "daa98ec4ee69434f885fce46c2a2f7c2b0dca1a8c01687d969d01530b4353b84"
 
-  url "https://github.com/readori/RemoHop/releases/download/v1.0.0/RemoHop-macos.dmg",
+  url "https://github.com/readori/RemoHop/releases/download/v1.0.1/RemoHop-macos.dmg",
       verified: "github.com/readori/RemoHop/"
   name "RemoHop"
   desc "Quick support: share this Mac with someone who is helping you"
