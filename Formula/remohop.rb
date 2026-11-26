@@ -6,24 +6,24 @@
 class Remohop < Formula
   desc "Lightweight peer-to-peer remote control over an end-to-end encrypted session"
   homepage "https://github.com/readori/RemoHop"
-  version "1.0.2"
+  version "1.0.3"
   license "AGPL-3.0-only"
 
   # The macOS binary is one universal (arm64 + x86_64), Developer ID signed and
   # notarized executable. Homebrew must not modify it (that would void the signature).
   on_macos do
-    url "https://github.com/readori/RemoHop/releases/download/v1.0.2/remohop_darwin_universal.tar.gz"
-    sha256 "9e6301efd835f1e9b4e1447b52a758527683bec231e0772f1240a981440b5d29"
+    url "https://github.com/readori/RemoHop/releases/download/v1.0.3/remohop_darwin_universal.tar.gz"
+    sha256 "1b9f87177eab7956585f528283950186c928171e7851d9f55ebe33b579210059"
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/readori/RemoHop/releases/download/v1.0.2/remohop_linux_amd64.tar.gz"
-      sha256 "98c8d1d544533f1417992e330f4e232fcc444f383750500c9d88a7e3ddddc706"
+      url "https://github.com/readori/RemoHop/releases/download/v1.0.3/remohop_linux_amd64.tar.gz"
+      sha256 "15d5348c89548808e5437af6db63a9b85c5909763298cb0f52e7b1e6c7883c7a"
     end
     on_arm do
-      url "https://github.com/readori/RemoHop/releases/download/v1.0.2/remohop_linux_arm64.tar.gz"
-      sha256 "6c1162303dd7568813fdf05ad45c231c81523f5fcba01fa75f5eb5544ead826d"
+      url "https://github.com/readori/RemoHop/releases/download/v1.0.3/remohop_linux_arm64.tar.gz"
+      sha256 "37d1b0cdec162504c7c97ef68d10ae29b5db326c4e11436900176e292f94348b"
     end
   end
 
