@@ -6,10 +6,10 @@
 # it keeps its old name (from when RemoHop.app was quick support) so that installed
 # copies keep upgrading.
 cask "remohop-quick" do
-  version "1.0.5"
-  sha256 "db007f661f004a20ed8260e2beb71fc3cb50b0cd8c590ec7d1e33640f8ebcab7"
+  version "1.0.6"
+  sha256 "9444dccc76007a98c3f53467fe4c7411476bcebb9a9c164465f624df6fd43640"
 
-  url "https://github.com/readori/RemoHop/releases/download/v1.0.5/RemoHop-macos.dmg",
+  url "https://github.com/readori/RemoHop/releases/download/v1.0.6/RemoHop-macos.dmg",
       verified: "github.com/readori/RemoHop/"
   name "RemoHop"
   desc "Remote desktop: connect to your computers and let others help on this Mac"
